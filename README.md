@@ -1,25 +1,25 @@
 # TweetPiPhoto
 @replies to each user who tweets a pre-determined phrase or hashtag with an image taken from the Raspberry Pi's camera. 
 
-Installation
+# Installation
 
 First, install python-pip on your Raspberry Pi by entering the following into the terminal:
 
-sudo apt-get install python-pip
+'sudo apt-get install python-pip'
 
 Then, install the tweepy client on your Pi by entering:
 
-sudo pip install tweepy
+'sudo pip install tweepy'
 
 Now execute the TweetPiPhoto.py script from the TweetPiPhoto Repository by navigating to the root folder and entering:
 
-sudo python TweetPiPhoto.py
+'sudo python TweetPiPhoto.py'
 
 To execute and leave the script running in the background after the SSH session has ended, try entering:
 
-sudo python TweetPiPhoto.py &
+'sudo python TweetPiPhoto.py &'
 
-Set Up
+# Set Up
 
 Some settings must be changed before it will be operational.
 
